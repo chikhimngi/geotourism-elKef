@@ -10,8 +10,8 @@ components:
   components:
   - type: Label
     properties: {role: headline, align: center, tooltip: '', border: '', foreground: 'theme:Secondary
-        500', visible: true, text: Geological and Mining Heritage of the Kef Region (Tunisia),
-      font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small,
+        500', visible: true, text: Héritage géologique et minier dans la région du Kef (Tunisia),
+      font_size: 25, font: '', spacing_above: small, icon_align: left, spacing_below: small,
       italic: true, background: '', bold: true, underline: false, icon: ''}
     name: headline_1
     layout_properties: {grid_position: 'VWEKKA,RYVQQX'}
@@ -26,10 +26,7 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
-  components:
-  - name: link_2
-    properties: {}
-    type: Link
+  components: []
 - type: ColumnPanel
   properties: {col_widths: '{}'}
   name: column_panel_1
@@ -37,7 +34,7 @@ components:
   components:
   - type: Link
     properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: 'theme:White',
-      visible: true, text: About  the Kef region, font_size: 18, wrap_on: mobile,
+      visible: true, text: visiter la ville du Kef, font_size: 18, wrap_on: mobile,
       font: '', col_spacing: medium, spacing_above: small, icon_align: left, col_widths: '',
       spacing_below: small, italic: true, background: 'theme:Primary 500', bold: true,
       underline: false, icon: ''}
@@ -50,7 +47,7 @@ components:
     layout_properties: {grid_position: 'BPKOZL,KAIANU'}
   - type: Link
     properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: 'theme:White',
-      visible: true, text: Geopark Project, font_size: 18, wrap_on: mobile, font: '',
+      visible: true, text: Projet Geopark, font_size: 18, wrap_on: mobile, font: '',
       col_spacing: medium, spacing_above: small, icon_align: left, col_widths: '',
       spacing_below: small, italic: true, background: 'theme:Primary 500', bold: true,
       underline: false, icon: ''}
@@ -63,7 +60,7 @@ components:
     layout_properties: {grid_position: 'KBQXPS,LEPGPO'}
   - type: Link
     properties: {role: null, url: 'C:\Users\chikh\Desktop\fiches-sites', align: left,
-      tooltip: '', border: '', foreground: 'theme:White', visible: true, text: Geological sites,
+      tooltip: '', border: '', foreground: 'theme:White', visible: true, text: Geosites,
       font_size: 18, wrap_on: mobile, font: '', col_spacing: medium, spacing_above: small,
       icon_align: left, col_widths: '', spacing_below: small, italic: true, background: 'theme:Primary
         500', bold: true, underline: false, icon: ''}
@@ -76,7 +73,7 @@ components:
     layout_properties: {grid_position: 'MFFKHP,AZFNOK'}
   - type: Link
     properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: 'theme:White',
-      visible: true, text: Ore Deposits, font_size: 18, wrap_on: mobile, font: '',
+      visible: true, text: Ressources minérales, font_size: 18, wrap_on: mobile, font: '',
       col_spacing: medium, spacing_above: small, icon_align: left, col_widths: '',
       spacing_below: small, italic: true, background: 'theme:Primary 500', bold: true,
       underline: false, icon: ''}
@@ -89,20 +86,26 @@ components:
     layout_properties: {grid_position: 'IPNNMC,GCUPFM'}
   - type: Link
     properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: 'theme:White',
-      visible: true, text: Geological Museum, font_size: 18, wrap_on: mobile, font: '',
+      visible: true, text: 'Musée Géologique ', font_size: 18, wrap_on: mobile, font: '',
       col_spacing: medium, spacing_above: small, icon_align: left, col_widths: '',
       spacing_below: small, italic: true, background: 'theme:Primary 500', bold: true,
       underline: false, icon: ''}
     name: link_5
     layout_properties: {grid_position: 'AQBKLF,TZUSKQ'}
     event_bindings: {click: link_5_click}
-  - name: link_3
-    properties: {}
+  - name: spacer_5
+    properties: {height: -2}
+    type: Spacer
+    layout_properties: {grid_position: 'CPZEWG,FHPHGS'}
+  - name: link_2
+    properties: {text: Wh am I, italic: true, bold: true, background: 'theme:Primary
+        500', foreground: 'theme:White', font_size: 18}
     type: Link
-    layout_properties: {grid_position: 'PABWQO,QEGUXZ'}
+    layout_properties: {grid_position: 'WCEEEL,NKUQHP'}
+    event_bindings: {click: link_2_click}
 - type: Link
   properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '',
-    visible: true, text: Home, font_size: null, wrap_on: mobile, font: '', col_spacing: medium,
+    visible: true, text: Accueil, font_size: null, wrap_on: mobile, font: '', col_spacing: medium,
     spacing_above: small, icon_align: left, col_widths: '', spacing_below: small,
     italic: false, background: '', bold: false, underline: false, icon: ''}
   name: link_1
