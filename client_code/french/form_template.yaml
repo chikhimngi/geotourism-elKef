@@ -12,18 +12,20 @@ components:
   name: navbar_links
   layout_properties: {slot: nav-right}
   components:
-  - name: english
-    properties: {text: English, icon: ''}
-    type: Link
+  - name: image_3
+    properties: {height: 34, source: _/theme/drap-tun.png}
+    type: Image
     layout_properties: {}
-    event_bindings: {click: english_click}
-  - name: french
-    properties: {text: French, icon: flag}
-    type: Link
+  - name: image_2
+    properties: {height: 32, display_mode: shrink_to_fit, source: _/theme/drap-fr.png}
+    type: Image
     layout_properties: {}
-    event_bindings: {click: french_click}
-    data_bindings:
-    - {property: icon, code: '', writeback: false}
+    event_bindings: {mouse_down: image_2_mouse_down}
+  - name: image_1
+    properties: {height: 29, display_mode: shrink_to_fit, source: _/theme/drap-eng.png}
+    type: Image
+    layout_properties: {}
+    event_bindings: {mouse_down: image_1_mouse_down}
 - name: column_panel_1
   properties: {}
   type: ColumnPanel

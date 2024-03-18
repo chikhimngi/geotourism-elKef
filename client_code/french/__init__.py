@@ -21,3 +21,15 @@ class french(frenchTemplate):
 
   def french_click(self, **event_args):
     open_form('french')
+
+  def image_1_mouse_up(self, x, y, button, **event_args):
+    open_form('french')
+
+  def image_2_mouse_up(self, x, y, button, **event_args):
+    open_form('french')
+
+  def image_1_mouse_down(self, x, y, button, keys, **event_args):
+    open_form('home')
+
+  def image_2_mouse_down(self, x, y, button, keys, **event_args):
+    open_form('french')
