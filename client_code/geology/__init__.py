@@ -22,8 +22,7 @@ class geology(geologyTemplate):
     # Any code you write here will run before the form opens.
     
 
-  def home_click(self, **event_args):
-    open_form('home')
+ 
 
   def link_3_click(self, **event_args):
     """This method is called when the link is clicked"""

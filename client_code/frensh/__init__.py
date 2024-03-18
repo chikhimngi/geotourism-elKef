@@ -47,8 +47,7 @@ class frensh(frenshTemplate):
   def english_mouse_down(self, x, y, button, keys, **event_args):
     open_form('english')
 
-  def link_1_click(self, **event_args):
-    o
+  
 
   
   
