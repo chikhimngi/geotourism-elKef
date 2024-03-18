@@ -22,7 +22,8 @@ components:
     layout_properties: {}
     event_bindings: {mouse_down: image_2_mouse_down}
   - name: image_1
-    properties: {height: 29, display_mode: shrink_to_fit, source: _/theme/drap-eng.png}
+    properties: {height: 29, display_mode: shrink_to_fit, source: _/theme/drap-eng.png,
+      vertical_align: bottom, horizontal_align: right}
     type: Image
     layout_properties: {}
     event_bindings: {mouse_down: image_1_mouse_down}
