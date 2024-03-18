@@ -43,7 +43,11 @@ class home(homeTemplate):
     self.content_panel.add_component(cv())
 
   def french_click(self, **event_args):
-    open_form('cv')
+    open_form('french')
+
+  def english_click(self, **event_args):
+    open_form('home')
+
   
 
 

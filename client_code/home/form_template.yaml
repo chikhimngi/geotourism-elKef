@@ -27,6 +27,11 @@ components:
   name: navbar_links
   layout_properties: {slot: nav-right}
   components:
+  - name: english
+    properties: {text: English}
+    type: Link
+    layout_properties: {}
+    event_bindings: {click: english_click}
   - name: french
     properties: {text: French}
     type: Link
