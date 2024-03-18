@@ -42,9 +42,9 @@ class home(homeTemplate):
     self.content_panel.clear()
     self.content_panel.add_component(cv())
 
-  def link_3_click(self, **event_args):
-    """This method is called when the link is clicked"""
-    pass
+  def french_click(self, **event_args):
+    open_form('cv')
+  
 
 
 

@@ -27,12 +27,13 @@ components:
   name: navbar_links
   layout_properties: {slot: nav-right}
   components:
-  - name: link_3
-    properties: {}
+  - name: french
+    properties: {text: French}
     type: Link
     data_bindings:
     - {property: url, code: 'self.item[''geoloy-e'']', writeback: false}
-    event_bindings: {click: link_3_click}
+    event_bindings: {click: french_click}
+    layout_properties: {}
 - type: ColumnPanel
   properties: {col_widths: '{}'}
   name: column_panel_1
