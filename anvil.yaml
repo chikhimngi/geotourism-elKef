@@ -4,12 +4,13 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: {type: form, module: frensh}
 package_name: ecotourism
 allow_embedding: false
 name: geotourism
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {}
-startup_form: home
+startup_form: null
 db_schema: {}
 renamed: true

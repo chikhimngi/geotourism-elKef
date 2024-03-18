@@ -1,8 +1,8 @@
-from ._anvil_designer import frenchTemplate
+from ._anvil_designer import englishTemplate
 from anvil import *
 from ..kef import kef
 
-class french(frenchTemplate):
+class english(englishTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
@@ -33,3 +33,13 @@ class french(frenchTemplate):
 
   def image_2_mouse_down(self, x, y, button, keys, **event_args):
     open_form('french')
+
+  def french_mouse_down(self, x, y, button, keys, **event_args):
+    open_form('frensh')
+
+  def englis_mouse_down(self, x, y, button, keys, **event_args):
+    open_form('english')
+
+  def tunis_mouse_down(self, x, y, button, keys, **event_args):
+    """This method is called when a mouse button is pressed on this component"""
+    pass

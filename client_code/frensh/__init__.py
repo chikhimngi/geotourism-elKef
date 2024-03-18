@@ -1,4 +1,4 @@
-from ._anvil_designer import homeTemplate
+from ._anvil_designer import frenshTemplate
 from anvil import *
 from ..kef import kef
 from ..geopark import geopark
@@ -8,7 +8,7 @@ from ..cv import cv
 
 
 
-class home(homeTemplate):
+class frensh(frenshTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
@@ -42,11 +42,14 @@ class home(homeTemplate):
     self.content_panel.clear()
     self.content_panel.add_component(cv())
 
-  def french_click(self, **event_args):
-    open_form('french')
+  def frensh_mouse_move(self, x, y, **event_args):
+    open_form('frensh')
 
-  def english_click(self, **event_args):
-    open_form('home')
+  def english_mouse_down(self, x, y, button, keys, **event_args):
+    open_form('english')
+
+  
+  
 
   
 

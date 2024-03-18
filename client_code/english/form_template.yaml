@@ -12,21 +12,25 @@ components:
   name: navbar_links
   layout_properties: {slot: nav-right}
   components:
-  - name: image_3
-    properties: {height: 34, source: _/theme/drap-tun.png}
-    type: Image
-    layout_properties: {}
-  - name: image_2
-    properties: {height: 32, display_mode: shrink_to_fit, source: _/theme/drap-fr.png}
-    type: Image
-    layout_properties: {}
-    event_bindings: {mouse_down: image_2_mouse_down}
-  - name: image_1
-    properties: {height: 29, display_mode: shrink_to_fit, source: _/theme/drap-eng.png,
-      vertical_align: bottom, horizontal_align: right}
-    type: Image
-    layout_properties: {}
-    event_bindings: {mouse_down: image_1_mouse_down}
+  - name: column_panel_2
+    properties: {}
+    type: ColumnPanel
+    components:
+    - name: tunis
+      properties: {height: 30, source: _/theme/drap-tun.png}
+      type: Image
+      layout_properties: {grid_position: 'DGDNPJ,PPVRPH'}
+      event_bindings: {mouse_down: tunis_mouse_down}
+    - name: englis
+      properties: {height: 29, source: _/theme/drap-eng.png}
+      type: Image
+      layout_properties: {grid_position: 'DGDNPJ,JXHRTQ'}
+      event_bindings: {mouse_down: englis_mouse_down}
+    - name: french
+      properties: {height: 28, source: _/theme/drap-fr.png}
+      type: Image
+      layout_properties: {grid_position: 'DGDNPJ,MPHPKT'}
+      event_bindings: {mouse_down: french_mouse_down}
 - name: column_panel_1
   properties: {}
   type: ColumnPanel
