@@ -32,16 +32,16 @@ components:
     type: ColumnPanel
     components:
     - name: tunis
-      properties: {height: 35, source: _/theme/drap-tun.png}
+      properties: {height: 29, source: _/theme/drap-tun.png}
       type: Image
       layout_properties: {grid_position: 'RAYORX,PRXJDC'}
     - name: english
-      properties: {height: 33, source: _/theme/drap-eng.png}
+      properties: {height: 27, source: _/theme/drap-eng.png}
       type: Image
       layout_properties: {grid_position: 'RAYORX,NCJBBG'}
       event_bindings: {mouse_move: english_mouse_move, mouse_down: english_mouse_down}
     - name: frensh
-      properties: {height: 33, source: _/theme/drap-fr.png}
+      properties: {height: 28, source: _/theme/drap-fr.png}
       type: Image
       layout_properties: {grid_position: 'RAYORX,JNDXQG'}
       event_bindings: {mouse_down: frensh_mouse_down, mouse_move: frensh_mouse_move}

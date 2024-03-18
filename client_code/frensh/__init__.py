@@ -5,6 +5,8 @@ from ..geopark import geopark
 from ..mineralRessource_copy import mineralRessource_copy
 from ..museum import museum
 from ..cv import cv
+from ..ressources import ressources
+
 
 
 
@@ -18,9 +20,6 @@ class frensh(frenshTemplate):
   def vist_kef_click(self, **event_args):
     self.content_panel.clear()
     self.content_panel.add_component(kef())
-
-  def link_1_click(self, **event_args):
-    open_form('home')
 
   def geoparck_click(self, **event_args):
     
@@ -47,6 +46,9 @@ class frensh(frenshTemplate):
 
   def english_mouse_down(self, x, y, button, keys, **event_args):
     open_form('english')
+
+  def link_1_click(self, **event_args):
+    o
 
   
   

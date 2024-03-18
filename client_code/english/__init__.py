@@ -14,7 +14,7 @@ class english(englishTemplate):
     self.content_panel.add_component(kef())
 
   def link_4_click(self, **event_args):
-    open_form('home')
+    open_form('english')
 
   def english_click(self, **event_args):
     open_form('home')
