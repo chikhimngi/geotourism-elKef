@@ -1,0 +1,73 @@
+container: {type: ColumnPanel}
+components:
+- name: headline_1
+  properties: {role: headline, text: 'Sheet08: Jerissa Iron Mine', align: center,
+    bold: true, foreground: 'theme:Secondary 700'}
+  type: Label
+  layout_properties: {grid_position: 'JMHQEP,MWBVPT'}
+- name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'JDHBAW,LSLDTJ DSWYRL,HKGBIY'}
+  components:
+  - name: rich_text_1
+    properties: {content: "The Jerissa mine has been mining iron ore in Tunisia since\
+        \ 1901.\nTwo products are extracted and marketed:\n- Siderite (feCo3), once\
+        \ used as an additive\nas a cattle feed additive, has now been abandoned due\
+        \ to the depletion of\ndepletion of reserves. \n- Hematite\n(Fe2O3), used\
+        \ as an additive in the cement industry, is still being quarried.\nThe mine\
+        \ itself is an open-air museum, with the company headquarters built in 1907\
+        \ (photo), its old electrical and compressed-air installations electrical\
+        \ and compressed-air installations that bear witness to an important activity\
+        \ that lasted more than 100 years. The mine overlooks a superb village, built\
+        \ during the colonial era and still retaining the charm of its tiled roofs.\
+        \ This pretty village has been dubbed \"Little Paris\".\n\nis mined in a series\
+        \ of quarries and underground galleries. Each structure we visit provides\
+        \ an insight into the different stages of iron mining. It's also an opportunity\
+        \ to get hands-on with the iron ore, to understand its genesis and the geological\
+        \ and structural context of the region, which spans several hundred million\
+        \ years.\nThe mine has its own museum. It is housed in the Saint Barbe church,\
+        \ built during the French protectorate and handed over to the Tunisian government\
+        \ when the mining companies were nationalized. The museum features a series\
+        \ of panels and display cases focusing on the history of iron. There is also\
+        \ a selection of iron ore samples and mining artefacts, the oldest dating\
+        \ back to the 1800s.\n\nA stroll around the mine floor gives you the chance\
+        \ to get up close to some very old objects: the carcass of an ambulance dating\
+        \ back to the Second World War, a locomotive dating back to 1952 and still\
+        \ running today (2020), a siderite roasting furnace, the Director's office\
+        \ house, a real gem built during the French colony, a bene of an old teleferic\
+        \ used to transport iron carbonate to the roasting furnace.\n\n\n"}
+    type: RichText
+    layout_properties: {grid_position: 'NARCNS,SWDMUU'}
+- name: image_6
+  properties: {source: _/theme/ambulance.png, display_mode: fill_width, height: 242,
+    tooltip: remnant of an ambulance used during the Second World War}
+  type: Image
+  layout_properties: {grid_position: 'JDHBAW,LSLDTJ QODKQK,MXHWUO'}
+- name: column_panel_2
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'JDHBAW,BFKMOA OINRBX,KXMMXG'}
+  components:
+  - name: image_1
+    properties: {source: _/theme/bureau.png, display_mode: fill_width, tooltip: Jerissa mine headquarters built in 1907}
+    type: Image
+    layout_properties: {grid_position: 'FAWAGE,HZAZRH'}
+  - name: image_2
+    properties: {source: _/theme/galerie_jerissa.png, display_mode: fill_width, tooltip: access gallery to the exhibition site}
+    type: Image
+    layout_properties: {grid_position: 'AWTCQL,ORZCNX'}
+  - name: image_3
+    properties: {source: _/theme/hematite.png, display_mode: fill_width, tooltip: Hematite ore deposit (fe2O3)}
+    type: Image
+    layout_properties: {grid_position: 'NQZIRM,HIQXJH'}
+  - name: image_4
+    properties: {source: _/theme/siderite.png, display_mode: fill_width, tooltip: 'Siderate
+        (iron carbonate, feCo3)'}
+    type: Image
+    layout_properties: {grid_position: 'NKCMKX,HOFHBU'}
+- name: image_7
+  properties: {source: _/theme/2-4.jpg, display_mode: fill_width, tooltip: iron carbonate roasting furnace}
+  type: Image
+  layout_properties: {grid_position: 'JDHBAW,BFKMOA NJRZKR,PNDWCM'}
+is_package: true

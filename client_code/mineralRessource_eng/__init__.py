@@ -1,10 +1,10 @@
-from ._anvil_designer import mineralRessource_copyTemplate
+from ._anvil_designer import mineralRessource_engTemplate
 from anvil import *
 import anvil.server
 from ..OuertanePhosphate import OuertanePhosphate
 from ..jerissa import jerissa
 
-class mineralRessource_copy(mineralRessource_copyTemplate):
+class mineralRessource_eng(mineralRessource_engTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
