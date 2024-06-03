@@ -3,15 +3,6 @@ container:
   type: HtmlTemplate
   properties: {html: '@theme:standard-page.html'}
 components:
-- type: ColumnPanel
-  properties: {col_widths: '{}'}
-  name: content_ophite
-  layout_properties: {slot: default}
-  components:
-  - name: image_1
-    properties: {}
-    type: Image
-    layout_properties: {grid_position: 'KTKTUV,JJMOWC'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
@@ -152,3 +143,12 @@ components:
     name: link_9
     layout_properties: {grid_position: 'KXTHTZ,SQWJDR'}
     event_bindings: {click: link_9_click}
+- name: column_panel_2
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {slot: default}
+  components:
+  - name: image_1
+    properties: {source: _/theme/Sites_map.png, height: 564}
+    type: Image
+    layout_properties: {grid_position: 'MWHSVN,JUPBIQ'}

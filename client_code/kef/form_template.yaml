@@ -37,9 +37,8 @@ components:
         \ a trouv\xe9 des traces de l'homme pr\xe9historique remontant au Pl\xe9istoc\xe8\
         ne moyen (300 000 ans, site arch\xe9ologique de Sidi Zine, peintures rupestres\
         \ de Dyr El Kef). La ville du Kef a vu se succ\xe9der les civilisations :\
-        \ Carthaginoise, Romaine, Musulmane.\n\nTraduit avec www.DeepL.com/Translator\
-        \ (version gratuite)\n", font: '', spacing_above: small, spacing_below: small,
-      data: null, background: '', format: markdown}
+        \ Carthaginoise, Romaine, Musulmane.\n\n\n", font: '', spacing_above: small,
+      spacing_below: small, data: null, background: '', format: markdown}
     name: rich_text_1
     layout_properties: {grid_position: 'IVROGG,DFTLMN'}
 - type: ColumnPanel
