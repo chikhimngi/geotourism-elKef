@@ -38,10 +38,13 @@ class home(homeTemplate):
     self.content_panel.clear()
     self.content_panel.add_component(museum())
 
-  def link_2_click(self, **event_args):
+  #def link_2_click(self, **event_args):
+    #self.content_panel.clear()
+    #self.content_panel.add_component(cv())
+
+  def cv_click(self, **event_args):
     self.content_panel.clear()
     self.content_panel.add_component(cv())
-
 
 
 

@@ -26,7 +26,12 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
-  components: []
+  components:
+  - name: cv
+    properties: {text: Pr Dr Chikhaoui Mongi}
+    type: Link
+    layout_properties: {}
+    event_bindings: {click: cv_click}
 - type: ColumnPanel
   properties: {col_widths: '{}'}
   name: column_panel_1
