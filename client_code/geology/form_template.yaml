@@ -149,6 +149,6 @@ components:
   layout_properties: {slot: default}
   components:
   - name: image_1
-    properties: {source: _/theme/Sites_map.png, height: 564}
+    properties: {source: _/theme/Sites_map2.png, height: 567}
     type: Image
-    layout_properties: {grid_position: 'MWHSVN,JUPBIQ'}
+    layout_properties: {grid_position: 'XWDTHF,LSNUVI'}

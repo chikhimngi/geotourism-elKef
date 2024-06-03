@@ -30,7 +30,7 @@ class home(homeTemplate):
   def geology_click(self, **event_args):
     open_form('geology')
 
-  def link_4_click(self, **event_args):
+  def mine_click(self, **event_args):
     self.content_panel.clear()
     self.content_panel.add_component(mineralRessource_copy())
 
